@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño_Web</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    
+    <div class="contenido">
+        <header class="encabezado">
+            <div class="logo">
+                <figure>
+                <a href="https://www.unad.edu.co/" target="_blank"><img src="imagenes/unadcolor.png" alt="UNAD" id="imagenlogo"></a>    
+                </figure>                    
+            </div>
+            <div class="titulo">
+                <h1 style="color: #005883;">DISEÑO WEB</h1>
+                <h1 style="color: #F0B429;">Elementos Section HTML5</h1>
+            </div>
+        </header>
+
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+
+                <li><a href="index.html">Conceptos</a>
+                    <ul class="submenu">
+                        <li><a href="conceptos01.html" target="_blank">HTML5</a></li>
+                        <li><a href="conceptos02.html" target="_blank">CSS3</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="index.html">Recursos</a>
+                    <ul class="submenu">
+                        <li><a href="recursos01.html" target="_blank">Videos HTML5</a></li>
+                        <li><a href="recursos02.html " target="_blank">Videos CSS3</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="autoevaluacion.html" target="_blank">Autoevaluacion</a></li>
+
+                <li><a href="autor.html" target="_blank">Autor</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="info">
+            <article class="articulo1">
+                <h2 class="t2-c1">7 Conceptos básicos de HTML</h2>
+                <br>
+                <p style="font-size: 1.1rem;">Se trata de un lenguaje de programación que se utiliza para el desarrollo de páginas web. Las siglas HTML corresponden a HyperText Markup Language («lenguaje de marcas de hipertexto». Este lenguaje permite estructurar el texto de los documentos y se basa en etiquetas que determinan cómo debe mostrarse el texto y los atributos que pueden tomar dichas etiquetas.</p>
+                <br>
+                
+                <h3 class="t3-c1">1. Las partes de la página web</h3>
+                <br>
+                <p class="parconc1">Toda página web se divide en dos partes principales: <strong>cabecera y el cuerpo (head y  body).</strong> 
+                <br>
+                <br>
+                <strong>La cabecera</strong> es la parte «no visible» de la página web. Esto significa que todo lo que se indique ahí no aparecerá en la página como tal, pero sin embargo es una parte importantísima: ahí se incluyen las etiquetas meta que se usan para describir la página (imprescindibles para el posicionamiento SEO), el título de la página, el idioma, información relacionada con hojas de estilo, etc. 
+                <br>
+                <br>
+                <strong>En el body</strong> se introducen todas las etiquetas que nos permiten dar formato al documento.
+                <br>
+                <br>
+                Como esta guía está destinada a pequeñas modificaciones en el cuerpo de la página web, describiré las etiquetas del body y no mencionaré nada más sobre la cabecera. Pero si necesitas ahondar en el tema o en más lenguajes a parte de html, te dejo esta <a href="https://www.w3schools.com/" target="_blank">página web</a>, que es excelente para pequeñas consultas que necesites.</p>
+                <br>
+                <h3 class="t3-c1">2. Los títulos</h3>
+                <br>
+                <p class="parconc1">Las etiquetas que definen los títulos se pueden utilizar para marcar el título y/o los diferentes apartados que forman el documento, o simplemente para resaltar cualquier texto. Existen seis tipos de títulos, que van de la etiqueta número 1 (la más grande) a la 6 (la más pequeña). Esto también es muy importantes para el posicionamiento en buscadores, ya que les estás indicando que lo que está entre estas etiquetas es importante y característico de tu web.</p>
+                <br>
+                <img src="imagenes/ejemplo2titulo.png" alt="ejemplotitulo2" class="imgejemplos">
+                <br>
+                <br>
+                <h3 class="t3-c1">3. Los párrafos</h3>
+                <br>
+                <p class="parconc1">Los párrafos se delimitan con las etiquetas <strong>&lt;p&gt;…&lt;/p&gt;</strong>. Un párrafo es un bloque de texto que se muestra separado del resto por un salto de línea. Si dentro del párrafo queremos hacer un salto, pero que se siga considerando un único párrafo (dar un intro en word) escribiríamos la etiqueta <strong>&lt;br&gt;</strong>.
+                <br>
+                <br>
+                Sin embargo, si quieres escribir de manera libre y que te detecte los saltos de línea, solo tienes que escribir dentro de la etiqueta <strong>&lt;p&gt;…&lt;/p&gt;</strong>. El único inconveniente de esto es que si copias el texto de otro documento y tiene además listas, títulos, negritas… es posible que no te lo detecte todo.</p>
+                <br>
+                <img src="imagenes/ejemplo3titulo.png" alt="ejemplotitulo3" class="imgejemplos">
+                <br>
+                <br>
+                <p class="referenciadelaweb">Si deseas seguir leyendo los otros conceptos <strong>(Las listas, las tablas, los enlaces y los atributos y estilos),</strong> te invito a visitar la pagina web <a href="https://leonorcanuelo.com/conceptos-basicos-html/" target="_blank">Leonorcanuelo</a></p>
+                <br>
+                <br>
+            </article>
+        </section>
+
+        <aside class="twitter">
+            <a class="twitter-timeline" data-height="700" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+        <footer>
+            <a href="https://www.contadorvisitasgratis.com" title="contador de visitas wordpress"><img src="https://counter3.stat.ovh/private/contadorvisitasgratis.php?c=e7z5uwlh63pj5uz4lhxgz96hcssb8pct" border="0" title="contador de visitas wordpress" alt="contador de visitas wordpress"></a>
+            <br>
+            Diseñado por Nilton Jaramillo | Copyright © 2020
+            <br>
+            UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA - UNAD
+            <br>
+        </footer>
+    </div>
+
+</body>
+</html>
