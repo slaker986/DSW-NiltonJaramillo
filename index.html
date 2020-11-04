@@ -1,28 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>NOMBRE</h1>
-    <H2>Nilton Alexander Jaramillo</H2></br>
-    <h1>PROGRAMA</h1>
-    <H2>Ingenieria de Sistemas</H2></br>
-    <h1>FECHA DE CREACION</h1>
-    <H2>05 de septiembre de 2020</H2></br>
-    <h1>DATOS DE CONTACTO</h1>
-    <H2>Movil: 3103779978</H2>
-    <H2>Skype: slaker986@hotmail.com</H2>
-    <H2>Ciudad: Medellin</H2></br>
+    <title>Diseño_Web</title>
+    <link rel="stylesheet" href="estilos.css">
 
-    <nav>
-        <ul>
-            <li><h2><a href="planning.html"> Elementos de Seccion></a></h2></li>
-        </ul> 
-    </nav>
+</head>
+
+<body>
     
+    <div class="contenido">
+        <header class="encabezado">
+            <div class="logo">
+                <figure>
+                <a href="https://www.unad.edu.co/" target="_blank"><img src="imagenes/unadcolor.png" alt="UNAD" id="imagenlogo"></a>    
+                </figure>                    
+            </div>
+            <div class="titulo">
+                <h1 style="color: #005883;">DISEÑO WEB</h1>
+                <h1 style="color: #F0B429;">Elementos Section HTML5</h1>
+            </div>
+        </header>
+
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+
+                <li><a href="index.html">Conceptos</a>
+                    <ul class="submenu">
+                        <li><a href="conceptos01.html" target="_blank">HTML5</a></li>
+                        <li><a href="conceptos02.html" target="_blank">CSS3</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="index.html">Recursos</a>
+                    <ul class="submenu">
+                        <li><a href="recursos01.html" target="_blank">Videos HTML5</a></li>
+                        <li><a href="recursos02.html " target="_blank">Videos CSS3</a></li>
+                    </ul>
+                </li>
+                    
+                <li><a href="autoevaluacion.html" target="_blank">Autoevaluacion</a></li>
+
+                <li><a href="autor.html" target="_blank">Autor</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="info">
+            <article class="articulo1">
+                <h2 class="t2">OBJETIVOS GENERALES:</h2>
+                <br>
+                <p class="secp">Aprender a diseñar paginas web bajo HTML5 y CSS3</p>
+                <br>
+                <h3 class="t3">Objetivos Específicos:</h3>
+                <br>
+                    <ul>
+                        <li>Aprender a usar diferentes herramientas de maquetacion web</li>
+                        <li>Aprender sobre los diferentes elementos de secciones</li>
+                        <li>Conocer las diferencias entre los diferentes elementos de secciones</li>
+                        <li>Apredner a desarrolar sitios web en formato HTML5 y CSS3, para ser visualizados en diferentes navegadores teniendo en cuenta su funcionabilidad y usabilidad, por medio del uso de diferentes editores de código propuestos en el desarrollo del curso.</li>
+                        <li>Diferenciar el uso correcto de las diferentes etiquetas de seccion (Header, Nav, Section, Article, Aside, Footer y Div</li>
+                        <li>Aprender a usar las diferentes propiedades de los estilos de CS3</li>
+                    </ul>  
+                <br>
+                <h3 class="t3">Temáticas a desarrollar:</h3> 
+                <br>
+                <p class="secp">Introducción a HTML5, Estructura básica de HTML5, Aplicación de
+                    elementos de HTML5 a un proyecto de diseño Web, Introducción a 
+                    CSS3, Estructura básica de CSS3, Aplicación de elementos de CSS3 a
+                    un proyecto de diseño Web.
+                </p>
+                 
+
+                <div class="datoimagen">
+                    <figure>
+                        <img src="imagenes/estructura_2.png" alt="Estructura de una pagina" id="imagenejemplo">
+                        <figcaption class="pieimag">
+                            
+                            <span>
+                                <a href="https://www.arkaitzgarro.com/html5/capitulo-2.html" target="_blank">Obtenida desde desarrolladoresweb</a>
+                            </span>
+                            <br>
+                        </figcaption>
+                    </figure>
+                </div>               
+            </article>
+        </section>
+
+        <aside class="twitter">
+            <a class="twitter-timeline" data-height="700" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+        <footer>
+            <a href="https://www.contadorvisitasgratis.com" title="contador de visitas wordpress"><img src="https://counter3.stat.ovh/private/contadorvisitasgratis.php?c=e7z5uwlh63pj5uz4lhxgz96hcssb8pct" border="0" title="contador de visitas wordpress" alt="contador de visitas wordpress"></a>
+            <br>
+            Diseñado por Nilton Jaramillo | Copyright © 2020
+            <br>
+            UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA - UNAD
+            <br>
+        </footer>
+    </div>
 
 </body>
 </html>
