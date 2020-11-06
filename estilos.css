@@ -181,7 +181,12 @@ footer{
 
 /* FIN PAGINA INDEX */
 
-/* INICIO PAGINA CONCEPTOS01 */
+/* INICIO PAGINA CONCEPTOS01 Y CONCEPTOS02 */
+
+.articuloc02{
+    width: 70%;
+    margin: auto;
+}
 
 .t2-c1{
     font-size: 2.1rem;
@@ -201,35 +206,6 @@ footer{
 
 .imgejemplos{
     padding-left: 3%;
-    width: 100%;
-}
-
-.referenciadelaweb{
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-/* FIN PAGINA CONCEPTOS01 */
-
-/* INICIO PAGINA CONCEPTOS02 */
-
-.t2-c1{
-    font-size: 2.1rem;
-    text-align: center;
-}
-
-.parconc1{
-    font-size: 1.1rem;
-    text-align: justify;
-    padding-left: 3%;
-}
-
-.t3-c1{
-    font-size: 1.3rem;
-    text-align: left;
-}
-
-.imgejemplos{
     width: 100%;
     display: block;
     margin: auto;
@@ -238,13 +214,83 @@ footer{
 .referenciadelaweb{
     font-size: 1.1rem;
     font-style: italic;
-    font-style: sub;
+}
+
+.img1c2{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 .img2c2{
-    width: 80%;
+    width: 60%;
     display: block;
     margin: auto;
 }
 
-/* FIN PAGINA CONCEPTOS02 */
+/* FIN PAGINA CONCEPTOS01 Y CONCEPTOS02*/
+
+
+/* INICIO PAGINA RECURSOS01 Y RECURSOS02 */
+
+.articulor01{
+    width: 70%;
+    margin: auto;
+}
+
+.t2-c1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.t3-c1{
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.t3-r1 span{
+    font-style: italic;
+}
+.parconc1{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-left: 3%;
+}
+
+.divyoutube{
+    width: 90%;
+    margin: auto;
+}
+
+.video{
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;  
+}
+
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* FIN PAGINA RECURSOS01 Y RECURSOS02*/
+
+/* INICIO PAGINA AUTOR */
+
+.dato{
+    font-size: 25px;
+    color: #005883;
+    padding-top: 2%;
+}
+
+.respuesta{
+    font-size: 20px;
+    color: #F0B400;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+/* FIN PAGINA AUTOR */
+  
